@@ -1,0 +1,372 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Plus Jakarta Sans', Arial, sans-serif;
+}
+.navbar{
+  background-color: black;
+  height: 55px;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+.left-section{
+  width: 450px;
+}
+.left-section img{
+  margin: 15px 38px;
+  filter: invert(1);
+  width: 100px;
+
+}
+.left-section img{
+  color: #fff;
+}
+.right-section{
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  margin-left: 318px;
+  gap: 22px;
+  
+}
+.view{
+  margin-top: 9px;
+  margin-left:11px;
+  font-size: 12px;
+}
+.name{
+  display: flex;
+  margin-top: 20px;
+}
+.Slider-Name{
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 23px;
+}
+.nav-list{
+  margin-top: 17px;
+  font-size: 20px;
+  list-style: none;
+  display:flex;
+  justify-content: space-evenly;
+  width: 385px;
+}
+.Image{
+  height: 315px;
+  width: 100%;
+}
+.bottom-slider{
+  height: 535px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5px;
+
+}
+.product-info{
+  height: 535px;
+  width: 245px;
+  border: 0.5px solid rgb(204, 201, 201);
+  border-radius: 32px;
+}
+.main{
+  position: relative;
+  background-color: rgba(240, 235, 247, 0.815);
+  height: 306px;
+  width: 100%;
+  border-top-right-radius: 33px;
+  border-top-left-radius: 33px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-bottom: 10px;
+}
+.main img{
+  height: 190px;
+  width: auto;
+  position: absolute;
+  top: 65px;
+  left: 35px;
+}
+.main p{
+  position: absolute;
+  top: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color:rgb(239, 116, 243);
+  left: 15px;
+}
+.details{
+  margin-bottom: 4px;
+  font-size: 12px; 
+  color:gray;
+}
+.colors{
+  width: 65%;
+  height: 30px;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+.circle1{
+  background-color: aqua;
+  height: 22px;
+  width: 22px;
+  border-radius: 50px;
+  border: 3px solid red;
+}
+.circle{
+  background-color: aqua;
+  height: 18px;
+  width: 18px;
+  border-radius: 50px;
+}
+.lower{
+  height: 190px;
+  margin: 20px 10px;
+  position: relative;
+}
+.lower button{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  height: 40px;
+  width: 150px;
+  border-radius: 19px;
+  position: absolute;
+  bottom: 5px;
+  right: 1px;
+} 
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: white;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 82%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+.feature1 img{
+  filter: invert(1) grayscale(1) brightness(0);
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+}
+.feature1{
+  display: flex;
+  gap: 7px;
+  margin-left: 20px;
+}
+.feature1 p{
+  display: inline;
+  margin-top: 14px;
+  font-size: 25px;
+}
+.shop-features{
+  display: flex;
+  padding: 20px 70px;
+  gap: 10px;
+  width: 85%;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 30px 102px;
+}
+.image-container{
+  text-align: center;
+  display: inline-block;
+}
+.image-container img{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.image-container p{
+  font-size: 12px;
+  width: 77px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+}
+.container{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 5px;
+}
+.btn-theme-black{
+  border-style: none;
+  font-weight: bold;
+  height: 45px;
+  width: 238px;
+  color: white;
+  background-color: #000;
+  margin-top: 35px;
+  border-radius: 30px;
+  margin-left: 500px;
+
+}
+.shop-track{
+  display: flex;
+  gap: 10px;
+  margin-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.shop-img img{
+  height: 330px;
+  width: 315px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+
+.slick-track{
+  display: flex;
+  gap: 10px;
+  margin-left: 8px;
+  margin-top: 35px;
+}
+.track-img img{
+  height: 180px;
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.track-img p{
+  width: 242px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.Stories{
+  margin-top: 35px;
+  font-size: 32px;
+  padding: 10px 509px;
+  font-weight: bolder;
+}
+
+
+.About{
+  height: 284px;
+  width: 85%;
+  margin-left: 70px;
+  display: flex;
+  gap: 3px;
+  padding: 45px 0px;
+  border-bottom:1px solid gray;
+  margin-bottom: 30px;
+}
+.Left-Footer,.Quick-footer{
+  height: 200px;
+  width: 20%;
+  margin-left: 20px;
+}
+.Left-Footer p{
+  font-size: 22px;
+}
+.Left-Footer img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Quick-footer{
+  padding-left: 80px;
+}
+.Quick-footer p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.Quick-footer li{
+  font-size: 16px;
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.top-footer{
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 100%;
+  padding: 55px 0px;
+  position: relative;
+  margin-top: 20px;
+}
+.top-footer p{
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+.buttons{
+  height: 63px;
+  width: 660px;
+  margin-right: 20px;
+  position: absolute;
+  right: 67px;
+  bottom: 45px;
+}
+.Subscribe{
+  height: 63px;
+  width: 135px;
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  right: 24px; 
+  
+}
+.Search{
+  background-color: black;
+  height: 60px;
+  width: 490px;
+  position: absolute;
+  border: 1px solid white;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 2px;
+  right: 160px;
+}
+.container-fluid{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-right: 123px;
+  padding-left: 33px;
+}
+.container-fluid p{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
